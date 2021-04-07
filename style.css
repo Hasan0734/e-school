@@ -34,12 +34,15 @@ body{
    
     text-align: center;   
 }
-.head-line{
+.head-line,.head-line-2{
     font-family: 'Poppins';
     font-size: 48px;
     font-weight: bold;
     color: #000000;
     margin: 15px 0px 30px 0px;
+}
+.head-line-2{
+    font-size: 36px;
 }
 .head-line span{
     color: #21B573;
@@ -98,8 +101,26 @@ body{
     width: 20px;
 }
 .box-2{
+    cursor: pointer;
     border: none;
     background: #FFFFFF;
     border-radius: 15px;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+}
+.box-2:hover{
+    box-shadow: 0px 20px 40px rgb(40 60 204 / 17%)
+}
+.testimonial-box img{
+    width: 150px;
+    margin-right: 40px;
+}
+.testimonial-box p{
+    width: 600px;
+    margin: 10px;
+}
+.footer{
+    height: 370px;
+    background: #282531;
+    margin-top: 150px;
 }
