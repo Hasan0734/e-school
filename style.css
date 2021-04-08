@@ -1,14 +1,12 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     background: #f9f9f9b0;
 }
-
 .top-bg{
     background: #F0FFF0;
-    height: 576px;
-    margin-bottom: 70px;
-}
-.container{
+    padding-bottom: 10px;
     margin-bottom: 70px;
 }
 .navbar-brand{
@@ -34,6 +32,9 @@ body{
    
     text-align: center;   
 }
+.all-container{
+    margin-bottom: 65px;
+}
 .head-line,.head-line-2{
     font-family: 'Poppins';
     font-size: 48px;
@@ -57,6 +58,7 @@ body{
     margin-bottom: 20px;
 }
 .box{
+    margin-bottom: 20px;
     width: 270px;
     height: 270px;
     background: #F8FFFB;
@@ -111,16 +113,29 @@ body{
 .box-2:hover{
     box-shadow: 0px 20px 40px rgb(40 60 204 / 17%)
 }
-.testimonial-box img{
-    width: 150px;
-    margin-right: 40px;
-}
+
 .testimonial-box p{
-    width: 600px;
+    
     margin: 10px;
 }
-.footer{
-    height: 370px;
+.bottom-section{
     background: #282531;
-    margin-top: 150px;
+    color: white;
+}
+.course-list{
+    padding: 50px 35px 50px 20px;
+    line-height: 25px;
+    font-size: 14px;
+} 
+.course-list h6{
+    font-size: 18px;
+   
+
+}
+.course-list li a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    font-size: 12px;
 }
